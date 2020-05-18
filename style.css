@@ -1,0 +1,180 @@
+body {
+    background-image: url(fruitpic/2664642.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Mada', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+p {
+    margin: 5px;
+    padding: 3px;
+}
+
+
+main {
+    max-width: 960px;
+    background-color: rgba(250, 200, 51, 0.95);
+    border-radius: 25px;
+    margin: 40px auto;
+    box-shadow: 5px 2px 2px 5px rgba(14, 13, 13, 0.3);
+}
+
+main article {
+    width: 100%;
+    display: flex;
+}
+
+main article #left {
+    width: 40%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top: 10px;
+}
+
+main article #left img {
+    border-radius: 25px;
+    width: 100%;
+    box-shadow: 2px 3px 2px 5px rgba(14, 13, 13, 0.3);
+}
+
+
+main article #right {
+    background-color: rgba(160, 147, 147, 1);
+    width: 60%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+article #right .content {
+    margin: 20px;
+    padding: 5px;
+}
+
+article #right .content img {
+    margin-left: 120px;
+    padding: 10px;
+}
+
+article #right .content h1 {
+    text-align: center;
+    font-size: 64px;
+    margin: 0 auto;
+    margin-left: 70px;
+    text-shadow: 3px 2px 1px rgba(26, 24, 24, 0.2);
+    ;
+    /* padding: 10px; */
+}
+
+p.remember {
+    display: inline-block;
+}
+
+header p {
+    margin-left: 0;
+}
+
+button {
+    display: block;
+    letter-spacing: 2px;
+    border: none;
+    padding: 5px 20px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 3px 2px 1px rgba(26, 24, 24, 0.2);
+    color: rgba(250, 200, 51, 1);
+}
+
+small {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="Email"],
+input[type="password"] {
+    border-radius: 15px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    color: grey;
+    box-shadow: 3px 2px 1px rgba(26, 24, 24, 0.2);
+}
+
+input[type="checkbox"] {
+    border: none;
+}
+
+form .formParagraph {
+    margin-top: 10px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+span {
+    color: rgb(119, 172, 32);
+}
+
+footer small {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* nav */
+nav .ColorShape {
+    position: relative;
+    left: 645px;
+    width: 25px;
+    height: 5px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+nav {
+    width: 50%;
+    margin: 0;
+    position: absolute;
+    top: 280px;
+    left: 480px;
+}
+
+nav ul {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+/* pseudo */
+button:hover {
+    background-color: rgba(250, 200, 51, 1);
+    color: white;
+    position: relative;
+    top: -3px;
+}
+
+input[type="Email"]:active {
+    outline: none;
+}
+
+@media screen and (max-width:480px) {
+    main article #left {
+        display: none;
+    }
+
+
+    body {
+        overflow: hidden;
+    }
+
+    main {
+
+        margin: 20px 20px;
+    }
+}
